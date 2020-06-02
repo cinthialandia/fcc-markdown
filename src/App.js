@@ -12,13 +12,17 @@ function App() {
 
   return (
     <div className="container">
-      <div className="editor">
-        <div className="editor-title">Editor</div>
-        <textarea onChange={handleChange} type="text" name="name" />
+      <div className="editor-container">
+        <h3 className="title">Editor</h3>
+        <textarea id="editor" onChange={handleChange} type="text" name="name" />
       </div>
-      <div className="previewer">
-        <div className="prev-title">Previewer</div>
-        <div dangerouslySetInnerHTML={{ __html: html }}></div>
+      <div className="previewer-container">
+        <h3 className="title">Previewer</h3>
+        <div
+          id="preview"
+          className="previewer"
+          dangerouslySetInnerHTML={{ __html: html }}
+        ></div>
       </div>
     </div>
   );
