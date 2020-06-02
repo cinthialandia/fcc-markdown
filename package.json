@@ -9,7 +9,10 @@
     "marked": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "typography": "^0.16.19",
+    "typography-theme-funston": "^0.16.19",
+    "typography-theme-irving": "^0.16.19"
   },
   "scripts": {
     "start": "react-scripts start",

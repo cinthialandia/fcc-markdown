@@ -2,10 +2,26 @@
   display: flex;
 }
 
+.editor-title {
+  padding: 20px;
+}
+
 .editor {
   flex: 1;
+  background-color: #f0def3;
+}
+.editor textarea {
+  width: 100%;
+  height: 900px;
+  background-color: #f0def3;
+  border: none;
 }
 
 .previewer {
   flex: 1;
+  background-color: #fff4e5;
+}
+
+.prev-title {
+  padding: 20px;
 }

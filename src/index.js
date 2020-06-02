@@ -1,14 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import Typography from "typography";
+import Theme from "typography-theme-irving";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+
+const typography = new Typography(Theme);
+
+typography.injectStyles();
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
